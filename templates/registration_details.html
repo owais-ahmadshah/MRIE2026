@@ -1,0 +1,233 @@
+{% extends 'index.html' %}
+{% block content %}
+<div class="body-content">
+  <h1>Registration Details</h1>
+  <table>
+
+    <thead>
+      <tr>
+        <th>Participants</th>
+        <th colspan="2">Early Registration*</th>
+        <th colspan="2">Late Registration**</th>
+      </tr>
+      <tr>
+        <th>National</th>
+        <th>IEEE member</th>
+        <th>Non IEEE</th>
+        <th>IEEE member</th>
+        <th>Non IEEE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>UG/PG Students, Research Scholar
+        </td>
+        <td>6500 INR</td>
+        <td>8000 INR</td>
+        <td>7000 INR</td>
+        <td>8500 INR</td>
+      </tr>
+      <tr>
+        <td>Academicians/Industry / R & D</td>
+        <td>7500 INR</td>
+        <td>8500 INR</td>
+        <td>8000 INR</td>
+        <td>9000 INR</td>
+      </tr>
+      <tr>
+        <td>Attendees and Co-Author</td>
+        <td style="text-align: center;" colspan="4">1500 INR</td>
+       </tr>
+    </tbody>
+  </table>
+  <table>
+    <thead>
+      <!-- <tr>
+        <th>Participants</th>
+        <th colspan="2">Early Registration*</th>
+        <th colspan="2">Late Registration</th>
+      </tr> -->
+      <tr>
+        <th>International</th>
+        <th>IEEE member</th>
+        <th>Non IEEE</th>
+        <th>IEEE member</th>
+        <th>Non IEEE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>UG/PG Students, Research Scholar
+        </td>
+        <td>160 USD</td>
+        <td>200 USD</td>
+        <td>200 USD</td>
+        <td>250 USD</td>
+      </tr>
+      <tr>
+        <td>Academicians/Industry / R & D</td>
+        <td>200 USD</td>
+        <td>250 USD</td>
+        <td>240 USD</td>
+        <td>300 USD</td>
+      </tr>
+      <tr>
+        <td>Attendees and Co-Author</td>
+        <td style="text-align: center;" colspan="4">25 USD</td>
+       </tr>
+    </tbody>
+
+
+
+  </table>
+  <div class="note">
+    <p>*Early Registration: On or before 07th June 2027</p>
+    <p>**Late Registration: After 07th June 2027</p>
+  </div>
+ 
+  
+  <h1>Registration Fee Details</h1>
+<!-- <p> Payment links will be available soon. The details will also be shared with notification of acceptance mail to authors</p> 
+  -->
+ <p>Authors of accepted papers are requested to proceed with the payment of the conference registration fee through
+    the following payment method: 
+    <a href="https://secure.paytmpayments.com/link/paymentForm/50431/LL_900576541" target="_blank" class="payment-link">Payment link</a>
+</p>
+  <p>Upon completing the payment, the corresponding author must share the transaction details for verification to: 
+    <a href="mrie2027@krmangalam.edu.in" target="_blank">mrie2027@krmangalam.edu.in</a>
+</p>
+  <style>
+    /* Styles for the Payment link (new button style) */
+    .payment-link {
+        text-decoration: none;
+        display: inline-block;
+        padding: 12px 24px;
+        background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 30px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .payment-link:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    }
+
+  <!-- 
+    <h3>For Indian Authors:</h3>
+<p>Authors of accepted papers are requested to proceed with the payment of the conference registration fee through
+    the following payment method: 
+    <a href="https://paytm.me/PYTMPS/f39jR5P" target="_blank" class="payment-link">Payment link</a>
+</p>
+<p>Upon completing the payment, the corresponding author must ensure that the transaction and registration details are submitted for verification using the following form: 
+    <a href="https://forms.gle/iZtCegbAWrVfzraX7" target="_blank" class="payment-verification-form">Payment Verification Form</a>
+</p>
+
+<h3>For International Authors:</h3>
+<p>Authors of accepted papers are requested to proceed with the payment of the conference registration fee through
+    the following payment method: 
+    <a href="https://paytm.me/PYTMPS/d7E5HnP" target="_blank" class="payment-link">Payment link</a>
+</p>
+<p>Upon completing the payment, the corresponding author must ensure that the transaction and registration details are submitted for verification using the following form: 
+    <a href="https://forms.gle/iZtCegbAWrVfzraX7" target="_blank" class="payment-verification-form">Payment Verification Form</a>
+</p>
+-->
+<style>
+    /* Styles for the Payment link (new button style) */
+    .payment-link {
+        text-decoration: none;
+        display: inline-block;
+        padding: 12px 24px;
+        background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 30px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .payment-link:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Styles for the Payment Verification Form link (original background color) */
+    .payment-verification-form {
+        text-decoration: none;
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #f0f8ff;  /* Original background color (light blue) */
+        color: #0066cc;  /* Original text color */
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 30px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 2px solid #0066cc; /* Border to match the original color */
+    }
+
+    .payment-verification-form:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    }
+</style> 
+
+
+
+
+
+  
+<!--
+  BELOW THIS NOT REQD
+  <h3>Account Details:</h3>
+  <table>
+    <tr>
+      <th>Beneficiary Name</th>
+      <td>K.R.MANGALAM UNIVERSITY</td>
+    </tr>
+    <tr>
+      <th>Name of Bank</th>
+      <td>ICICI BANK</td>
+    </tr>
+    <tr>
+      <th>Branch</th>
+      <td>Gurugram</td>
+    </tr>
+    <tr>
+      <th>A/c No</th>
+      <td>091101000622</td>
+    </tr>
+    <tr>
+      <th>IFS Code</th>
+      <td>ICIC0000911</td>
+    </tr>
+    <tr>
+      <th>Swift Code</th>
+      <td>ICICINBBCTS</td>
+    </tr>
+  </table> -->
+
+  <h1>Important:</h1>
+  <ul>
+    <li>Kindly ensure that at least ONE author completes full conference registration before submitting the final
+      manuscript.</li>
+    <li>Students/Research Scholar must present/mail a valid student card for verification.</li>
+    <li>IEEE members are requested to email their membership card for verification.</li>
+  </ul>
+
+  <h1>Refund Policy:</h1>
+  <p>Once registered, no refunds will be issued. We kindly ask all participants to carefully consider their registration
+    before confirming, as refunds will not be provided once registration is completed.</p>
+
+
+
+  <!-- <span class="manuscripts">Link yet to be included</span> -->
+  </p>
+</div>
+{% endblock %}
